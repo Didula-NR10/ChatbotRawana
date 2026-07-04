@@ -1,3 +1,13 @@
+---
+title: Mandhodhini Backend
+emoji: 🐍
+colorFrom: purple
+colorTo: pink
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Mandhodhini Backend (FastAPI + Gemini)
 
 Stateless FastAPI backend for the Ravana chatbot. It proxies chat messages to
