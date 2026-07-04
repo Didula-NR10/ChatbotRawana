@@ -11,12 +11,12 @@ from app.routers import chat, health
 from app.security import limiter
 
 logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger("mandhodhini")
+logger = logging.getLogger("mandodari")
 
 settings = get_settings()
 
 app = FastAPI(
-    title="Mandhodhini Chatbot API",
+    title="Mandodari Chatbot API",
     description="Backend for the Ravana chatbot. Stateless — no chat history is ever persisted.",
     version="1.0.0",
     # Hide interactive docs in production to reduce surface area.
@@ -59,4 +59,4 @@ app.include_router(chat.router)
 
 @app.get("/")
 async def root():
-    return {"service": "mandhodhini-backend", "status": "running"}
+    return {"service": "mandodari-backend", "status": "running"}

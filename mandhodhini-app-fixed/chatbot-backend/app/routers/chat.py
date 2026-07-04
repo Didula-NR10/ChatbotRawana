@@ -7,7 +7,7 @@ from app.gemini_client import generate_reply
 from app.schemas import ChatRequest, ChatResponse
 from app.security import limiter, looks_like_injection_attempt, sanitize_text
 
-logger = logging.getLogger("mandhodhini.chat")
+logger = logging.getLogger("mandodari.chat")
 settings = get_settings()
 
 router = APIRouter(prefix="/api/chat", tags=["chat"])

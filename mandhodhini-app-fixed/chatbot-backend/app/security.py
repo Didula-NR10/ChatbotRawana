@@ -46,7 +46,7 @@ def looks_like_injection_attempt(text: str) -> bool:
         r"you are now",
         r"system prompt",
         r"reveal (your|the) (prompt|instructions|api key)",
-        r"act as (?!mandhodhini)",
+        r"act as (?!mandodari)",
     ]
     lowered = text.lower()
     return any(re.search(p, lowered) for p in patterns)
