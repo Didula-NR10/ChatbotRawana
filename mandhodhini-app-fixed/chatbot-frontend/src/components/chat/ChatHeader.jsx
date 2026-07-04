@@ -4,11 +4,11 @@ export default function ChatHeader({ onClearChat }) {
   return (
     <>
       <div className="chat-card-header">
-        <img className="chat-avatar" src={AVATAR} alt="Mandhodhini" />
+        <img className="chat-avatar" src={AVATAR} alt="Mandodari" />
         <div>
-          <h2>Mandhodhini</h2>
+          <h2>Mandodari</h2>
           <p>
-            I am <strong>Mandhodhini</strong>, queen of Lanka.
+            I am <strong>Mandodari</strong>, queen of Lanka.
             <br />
             Ask me anything about my lord, <strong>Ravana</strong>.
           </p>

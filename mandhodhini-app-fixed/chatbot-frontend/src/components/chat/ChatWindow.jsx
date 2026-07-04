@@ -15,7 +15,7 @@ const INITIAL_MESSAGES = [
   {
     role: 'bot',
     content:
-      "I am Mandhodhini, queen of Lanka. Ask me anything about my lord, Ravana — his family, his wisdom, his kingdom, or how he is remembered.",
+      "I am Mandodari, queen of Lanka. Ask me anything about my lord, Ravana — his family, his wisdom, his kingdom, or how he is remembered.",
     time: formatTime(),
   },
 ]
@@ -90,7 +90,7 @@ export default function ChatWindow({ onOpenMenu }) {
         <QuickReplies onPick={sendMessage} disabled={isSending} />
         <ChatInput onSend={sendMessage} disabled={isSending} />
         <p className="chat-disclaimer">
-          Mandhodhini is an AI chatbot for educational and informational purposes.
+          Mandodari is an AI chatbot for educational and informational purposes.
           <br />
           Answers are based on historical, literary, and cultural sources. Your
           chat history is saved only on this device and is never sent to our

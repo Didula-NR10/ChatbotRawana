@@ -11,7 +11,7 @@ export default function QuoteCard({ collapsed }) {
         <br />
         A legacy eternal.
       </p>
-      <span className="quote-author">— Mandhodhini</span>
+      <span className="quote-author">— Mandodari</span>
       <span className="quote-lotus">✦</span>
     </div>
   )

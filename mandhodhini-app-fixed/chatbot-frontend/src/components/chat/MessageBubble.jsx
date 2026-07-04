@@ -6,7 +6,7 @@ export default function MessageBubble({ role, content, time, avatar }) {
   return (
     <div className={`message-row ${isUser ? 'message-row--user' : 'message-row--bot'}`}>
       {!isUser && (
-        <img className="message-avatar" src={avatar} alt="Mandhodhini" />
+        <img className="message-avatar" src={avatar} alt="Mandodari" />
       )}
       <div className={`message-bubble ${isUser ? 'message-bubble--user' : 'message-bubble--bot'}`}>
         {Array.isArray(content) ? (

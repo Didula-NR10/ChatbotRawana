@@ -34,7 +34,7 @@ export default function Sidebar({
 
         {!isCollapsed && (
           <p className="sidebar-footer">
-            © 2026 Mandhodhini
+            © 2026 Mandodari
             <br />
             All rights reserved.
           </p>

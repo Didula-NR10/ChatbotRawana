@@ -9,7 +9,7 @@ import {
 } from '../icons.jsx'
 
 export const NAV_ITEMS = [
-  { id: 'chat', icon: ChatIcon, label: 'Chat', sub: 'Ask Mandhodhini' },
+  { id: 'chat', icon: ChatIcon, label: 'Chat', sub: 'Ask Mandorari' },
   { id: 'about', icon: CrownIcon, label: 'About Ravana', sub: 'King of Lanka' },
   { id: 'legacy', icon: MaskIcon, label: 'His Legacy', sub: 'Beyond the Myths' },
   { id: 'lanka', icon: TempleIcon, label: 'Lanka', sub: 'The Golden Kingdom' },

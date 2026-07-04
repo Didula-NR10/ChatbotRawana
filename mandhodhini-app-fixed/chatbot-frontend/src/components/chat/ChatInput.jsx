@@ -89,8 +89,8 @@ export default function ChatInput({ onSend, disabled = false }) {
         value={draft}
         onChange={(e) => setDraft(e.target.value)}
         disabled={disabled}
-        placeholder={isListening ? 'Listening…' : disabled ? 'Mandhodhini is replying…' : 'Ask Mandhodhini anything...'}
-        aria-label="Ask Mandhodhini anything"
+        placeholder={isListening ? 'Listening…' : disabled ? 'Mandodari is replying…' : 'Ask Mandodari anything...'}
+        aria-label="Ask Mandodari anything"
       />
       <button type="submit" className="send-btn" disabled={disabled || !draft.trim()} aria-label="Send message">
         <SendIcon />

@@ -10,8 +10,8 @@ const MessageList = forwardRef(function MessageList({ messages, isTyping }, ref)
       ))}
       {isTyping && (
         <div className="message-row message-row--bot">
-          <img className="message-avatar" src={AVATAR} alt="Mandhodhini" />
-          <div className="message-bubble message-bubble--bot typing-bubble" aria-label="Mandhodhini is typing">
+          <img className="message-avatar" src={AVATAR} alt="Mandodari" />
+          <div className="message-bubble message-bubble--bot typing-bubble" aria-label="Mandodari is typing">
             <span className="typing-dot" />
             <span className="typing-dot" />
             <span className="typing-dot" />
